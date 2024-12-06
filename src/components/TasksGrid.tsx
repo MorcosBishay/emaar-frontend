@@ -82,7 +82,7 @@ export const TasksGrid: FC = () => {
             setSortOrder={setSortOrder}
             setCompleted={setCompleted}
           />
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 h-[90%] overflow-auto no-scrollbar">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {data?.tasks?.map((task) => (
               <TaskCard
                 key={`task-${task._id}`}
