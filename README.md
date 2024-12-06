@@ -46,7 +46,7 @@ This is a **Task Manager Frontend Application** built with modern web technologi
 
 Ensure you have the following installed on your machine:
 
-1. **Node.js**: Version `18.x` or higher.
+1. **Node.js**: Version `18.x`.
 2. **Yarn**: Latest stable version.
 
 ---
@@ -78,4 +78,10 @@ Ensure you have the following installed on your machine:
 
 - **Tailwind CSS + Shadcn/UI**:
   - Provides responsive and reusable components for a modern UI.
+ 
+## Deployment
+
+This project is deployed using **Vercel**. You can access the live application at:
+
+[Live Application Link](https://emaar-frontend.vercel.app/)
 
