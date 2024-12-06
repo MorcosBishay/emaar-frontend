@@ -25,6 +25,11 @@ This is a **Task Manager Frontend Application** built with modern web technologi
 
 - **Filtering**:
   - Filter tasks based on their completion status (**Complete** or **Incomplete**).
+ 
+- **Notifications**:
+  - After editing, adding and deleting a task, a toast will appear to show if the process was successfull or not.
+ 
+- **Optimistic Updates** 
 
 ---
 
