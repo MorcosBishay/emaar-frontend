@@ -122,8 +122,8 @@ export const TaskCard = ({
               )
             }
           }}
-          className={cn('focus:outline-none', {
-            'bg-gray-100 p-2 rounded-lg': isTitleEditing,
+          className={cn('focus:outline-none p-2', {
+            'bg-gray-100 rounded-lg': isTitleEditing,
             truncate: !isTitleEditing,
           })}
         >
